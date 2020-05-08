@@ -1,0 +1,3 @@
+effect give @a[tag=lobby.player] resistance 2 100 true
+effect give @a[tag=lobby.player] saturation 2 100 true
+replaceitem entity @a[tag=lobby.player] armor.head stone_button{display:{Name:'{"text":"Anti-Knockback Device","color":"gold","italic":false}',Lore:['{"text":"To avoid being pushed around in the lobby.","color":"dark_gray"}']},Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}],AttributeModifiers:[{AttributeName:"generic.knockbackResistance", Name:"generic.knockbackResistance", Amount:1,Operation:0, UUIDLeast:894654, UUIDMost:2872}],HideFlags:63}

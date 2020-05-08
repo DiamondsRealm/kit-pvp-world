@@ -1,0 +1,8 @@
+clear @s
+give @s iron_sword{display:{Name:'{"text":"Ninja\'s Katana","color":"blue","italic":false}',Lore:['{"text":"The creation of an expert blacksmith.","color":"dark_gray"}']},Unbreakable:1,HideFlags:37}
+give @s firework_star{display:{Name:'{"text":"Orb of Concealment","color":"blue","italic":false}',Lore:['{"text":"Drop for an easy getaway.","color":"dark_gray"}']}} 5
+give @s cooked_beef{display:{Name:'{"text":"Steak","color":"blue","italic":false}',Lore:['{"text":"Eat to regenerate.","color":"dark_gray"}']}} 16
+replaceitem entity @s armor.head leather_helmet{display:{Name:'{"text":"Ninja\'s Suit","color":"blue","italic":false}',Lore:['{"text":"The ninja uses the element of surprise.","color":"dark_gray"}'],color:1646383},Unbreakable:1,HideFlags:37}
+replaceitem entity @s armor.chest leather_chestplate{display:{Name:'{"text":"Ninja\'s Suit","color":"blue","italic":false}',Lore:['{"text":"Stealth over protection.","color":"dark_gray"}'],color:1646383},Unbreakable:1,HideFlags:37}
+replaceitem entity @s armor.legs leather_leggings{display:{Name:'{"text":"Ninja\'s Suit","color":"blue","italic":false}',Lore:['{"text":"Hard to spot during the night.","color":"dark_gray"}'],color:1646383},Unbreakable:1,HideFlags:37}
+replaceitem entity @s armor.feet leather_boots{display:{Name:'{"text":"Ninja\'s Suit","color":"blue","italic":false}',Lore:['{"text":"Swift and silent.","color":"dark_gray"}'],color:1646383},Unbreakable:1,Enchantments:[{id:feather_falling,lvl:10}],HideFlags:37}

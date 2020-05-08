@@ -1,0 +1,15 @@
+execute as @a at @s if block ~ ~-2 ~ light_gray_shulker_box run function tp:newbie_success
+execute as @a[scores={kills=0..9}] at @s if block ~ ~-2 ~ lime_shulker_box run function tp:duelist_failure
+execute as @a[scores={kills=10..}] at @s if block ~ ~-2 ~ lime_shulker_box run function tp:duelist_success
+execute as @a[scores={kills=0..24}] at @s if block ~ ~-2 ~ green_shulker_box run function tp:mercenary_failure
+execute as @a[scores={kills=25..}] at @s if block ~ ~-2 ~ green_shulker_box run function tp:mercenary_success
+execute as @a[scores={kills=0..49}] at @s if block ~ ~-2 ~ orange_shulker_box run function tp:adept_failure
+execute as @a[scores={kills=50..}] at @s if block ~ ~-2 ~ orange_shulker_box run function tp:adept_success
+execute as @a[scores={kills=0..99}] at @s if block ~ ~-2 ~ cyan_shulker_box run function tp:champion_failure
+execute as @a[scores={kills=100..}] at @s if block ~ ~-2 ~ cyan_shulker_box run function tp:champion_success
+execute as @a[scores={kills=0..174}] at @s if block ~ ~-2 ~ blue_shulker_box run function tp:paladin_failure
+execute as @a[scores={kills=175..}] at @s if block ~ ~-2 ~ blue_shulker_box run function tp:paladin_success
+execute as @a[scores={kills=0..249}] at @s if block ~ ~-2 ~ purple_shulker_box run function tp:deity_failure
+execute as @a[scores={kills=250..}] at @s if block ~ ~-2 ~ purple_shulker_box run function tp:deity_success
+execute as @a[scores={kills=0..399}] at @s if block ~ ~-2 ~ red_shulker_box run function tp:immortal_failure
+execute as @a[scores={kills=400..}] at @s if block ~ ~-2 ~ red_shulker_box run function tp:immortal_success

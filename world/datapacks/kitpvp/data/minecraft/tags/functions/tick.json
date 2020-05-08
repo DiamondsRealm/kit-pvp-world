@@ -1,0 +1,15 @@
+{
+ "values": [
+ "tp:shulker_tp",
+ "scoreboard:rankup",
+ "text:bossbars",
+ "kits:kitabilities",
+ "scoreboard:triggers",
+ "text:personal_book",
+ "scoreboard:killstreak",
+ "other:cleanup",
+ "other:nether",
+ "other:safelobby",
+ "other:replenishment_stations"
+ ]
+}
